@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Pagina Copia</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            height: auto;
+        }
+        
+        header {
+            background-color: #b9ca00;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+        
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        textarea {
+            height: 100px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    
+    <form action="#" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <div style="text-align: start;margin-top: 250px;">Realizado con mucho ❤️ por Evelin Ramos</div>
+</body>
+</html>
